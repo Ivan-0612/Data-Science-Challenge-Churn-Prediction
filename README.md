@@ -1,4 +1,9 @@
 # Data-Science-Challenge-Churn-Prediction
-In this project, I faced a machine learning challenge related to predicting customer churn in a video streaming service. My task was to build a model capable of predicting which subscribers would continue their subscription for the next month.
+## Objective:
+The goal of this analysis was to predict customer churn in a video streaming service to help improve retention strategies
 
-To address this challenge, I used a dataset that includes information from subscribers who started their subscription in 2021, with details about their behaviour up to the date they decided to cancel. Cancellation depends on several variables such as content saturation, lack of time or the perception that the service is no longer needed. Also, I used a logistic regression model to make de predictions.
+## Approach:
+I used logistic regression to build the predictive model, transforming categorical variables using One-Hot Encoding and Label Encoding, and splitting the data into features and the target variable.
+
+## Solution:
+The model achieved an accuracy of 0.7478 in predicting whether a customer would drop out of the service. This could allow the company to focus on high-risk users and implement targeted retention strategies, ultimately improving customer retention.
